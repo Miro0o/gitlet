@@ -1,12 +1,11 @@
 # Gitlet
-A Github-like Version Control System for storing file backups.
+A VCS like github. From CS61BL, UCB.
 
 ## Getting started
 Compile all the java classes:
 `javac gitlet/Main.java gitlet/Staging.java gitlet/Repo.java gitlet/Branch.java gitlet/Commit.java gitlet/Head.java gitlet/Status.java`
 
 ## How to use Gitlet
-
 To start a repo:
 `java gitlet.Main init`
 
@@ -53,6 +52,6 @@ To merge files from the given branch into the current branch:
 `java gitlet.Main merge [branch name]`
 
 ## Acknowledgement
-This implementation follows the design of Gitlet[https://cs61bl.org/su20/projects/gitlet/#acknowledgments] owned by the staff of the EECS department at University of California, Berkeley.
+This implementation follows the design of [Gitlet](https://cs61bl.org/su20/projects/gitlet/#acknowledgments) owned by the staff of the EECS department at University of California, Berkeley.
 
 To future CS61B/BL students, don't copy this implementation. You can come up with your own design.
